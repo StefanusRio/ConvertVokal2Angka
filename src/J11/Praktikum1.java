@@ -37,9 +37,14 @@ public static void main(String[] args){
     System.out.println("Isi x sama dengan r (Case Sensitive) : " + x.equals(r));
     System.out.println("Isi x sama dengan z (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
     
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
+    System.out.println("Perbandingan isi x dengan y : " + x.compareTo(y));
+    System.out.println("Perbandingan isi x dengan z (Case Sensitive) : " + x.compareTo(z));
+    System.out.println("Perbandingan isi x dengan r (Case Sensitive) : " + x.compareTo(r));
+    System.out.println("Perbandingan isi x dengan r (Not Case Sensitive) : " + x.compareToIgnoreCase(r));
+    
+    String s = "Operasi";
+    System.out.println("Isi variabel s : " + s);
+    System.out.println("Perbandingan isi r dengan s (Case Sensitive) : " + r.compareTo(s));
+    
 }    
 }
