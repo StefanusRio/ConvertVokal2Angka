@@ -56,7 +56,25 @@ public static void main(String[] args){
     System.out.println("Isi variabel t tanpa spasi : \""+ t.trim() + "\"");
     
     System.out.println("Gabungkan isi variabel x dan r : "+ x.concat(r));
-   
-}
+    
+    System.out.println("Karakter mulai posisi 3 di variabel x : " + x.substring(3));
+    
+    System.out.println("Karakter dari posisi 3-5 di varibel x : " + x.substring(3,6));
+    
+    String tclean = t.trim();
+    System.out.println("Isi variabel tclean : "+ t.trim());
+    System.out.println("Rubah 'i' jadi 'E' di variabel tclean : " + tclean.replace("i", "E"));
+    
+    String[] arrT = tclean.split(" ");
+    System.out.println("Pecah kata di variabel tclean : ");
+    for (int i = 0; i < arrT.length; i++) {
+        System.out.println(arrT[i]);
+    
+    String[] arrTr = tclean.split("r");
+    System.out.println("Pecah kata berdasarkan huruf 'r' di variabel tclean : ");
+    for (int j = 0; j < arrTr.length; j++) {
+        System.out.println(arrTr[i]);;
+                }
+  
 }    
-
+}
