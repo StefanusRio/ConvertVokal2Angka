@@ -75,6 +75,10 @@ public static void main(String[] args){
     for (int j = 0; j < arrTr.length; j++) {
         System.out.println(arrTr[i]);;
                 }
-  
+    double d = 1545454000;
+        System.out.println(String.format("Uang saya %,.4f",d));
+        
+        System.out.println(String.format(Locale.forLanguageTag("in-ID"), "Uang saya Rp %,.2f", d));
+}
 }    
 }
