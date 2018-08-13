@@ -26,5 +26,20 @@ public static void main(String[] args){
     System.out.println("y adalah kosong : " + y.isEmpty());
     
     System.out.println("Isi x sama dengan y : " + x.equals(y));
+    
+    String z = "Operasi";
+    
+    System.out.println("Isi variabel z : " + z);
+    System.out.println("Isi x sama dengan z z (Case Sensitive) : " + x.equals(z));
+    
+    String r = "Operasi";
+    System.out.println("Isi variabel r : " + r);
+    System.out.println("Isi x sama dengan r (Case Sensitive) : " + x.equals(r));
+    System.out.println("Isi x sama dengan z (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
+    
+    System.out.println("");
+    System.out.println("");
+    System.out.println("");
+    System.out.println("");
 }    
 }
